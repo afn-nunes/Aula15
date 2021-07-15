@@ -1,6 +1,6 @@
 package classes;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private String cpf;
    
@@ -24,5 +24,11 @@ public class Pessoa {
     public Pessoa(String nome, String cpf){
         this.nome = nome;
         this.cpf = cpf;
+    }
+
+    public abstract void cadastrarPessoa();
+
+    public Pessoa(){
+
     }
 }

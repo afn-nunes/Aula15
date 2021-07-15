@@ -22,6 +22,15 @@ public class Motorista extends Pessoa{
         this.habilitacao = habilitacao;
     }
 
+    public Motorista(int matricula, String habilitacao){
+        this.matricula = matricula;
+        this.habilitacao = habilitacao;
+    }
     
+    @Override
+    public void cadastrarPessoa() {
+        // TODO Auto-generated method stub
+        
+    }   
     
 }
