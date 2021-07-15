@@ -26,8 +26,6 @@ public abstract class Pessoa {
         this.cpf = cpf;
     }
 
-    public abstract void cadastrarPessoa();
-
     public Pessoa(){
 
     }
